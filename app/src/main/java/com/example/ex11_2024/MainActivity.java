@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         tvda.setText("Device Activations: " + temp);
         temp = bootcounter.getInt("hcon", 0);
         tvhc.setText("Headphones connections:  " + temp);
+        temp = bootcounter.getInt("thcon", 0);
+        tvthc.setText("Headphones connections:  " + temp);
 
 
     }
